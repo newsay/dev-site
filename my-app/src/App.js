@@ -5,10 +5,10 @@ function App() {
         <nav className="navbar navbar-expand-lg navbar-light shadow-sm" id="mainNav">
           <div className="container px-5">
             <div className="">
-            <a className="btn btn-outline-warning text-warning rounded-circle me-2" href="https://twitter.com" role="button"><i className="bi-linkedin"></i></a>
-            <a className="btn btn-outline-warning text-warning rounded-circle me-2" href="https://twitter.com" role="button"><i className="bi-github"></i></a>
-            <a className="btn btn-outline-warning text-warning rounded-circle me-2" href="https://twitter.com" role="button"><i className="bi-twitter"></i></a>
-            <a className="btn btn-outline-warning text-warning rounded-circle me-2" href="mailto:syaswen@gmail.com" role="button"><i className="bi-envelope-fill"></i></a>
+              <a className="btn btn-outline-warning text-warning rounded-circle me-2" href="https://www.linkedin.com/in/syaswen/" role="button"><i className="bi-linkedin"></i></a>
+              <a className="btn btn-outline-warning text-warning rounded-circle me-2" href="https://github.com/newsay/" role="button"><i className="bi-github"></i></a>
+              <a className="btn btn-outline-warning text-warning rounded-circle me-2" href="https://twitter.com/y_swen/" role="button"><i className="bi-twitter"></i></a>
+              <a className="btn btn-outline-warning text-warning rounded-circle me-2" href="mailto:syaswen@gmail.com" role="button"><i className="bi-envelope-fill"></i></a>
             </div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -26,17 +26,14 @@ function App() {
         </nav>
       </div>
 
-      <header className=" bg-grad">
-        <div className="container p-5">
-          <div className="row align-items-center">
-
+      <header className="bg-grad">
+        <div className="container conth p-5">
+          <div className="row align-items-center contm">
             <div className="col">
-              <div className="text-lg-start text-center">
+              <div className="text-lg-start text-center align-text-bottom">
                 <img src="/assets/profile.jpg" className="rounded-circle m-3 profile" alt="profile" />
-
                 <h1 className="display-1 name text-grad">SHOSHANA YASWEN</h1>
                 <h2 className="text-dark tagline">Software Developer in Washington, D.C.</h2>
-
               </div>
               <div className="col">
               </div>
@@ -46,30 +43,45 @@ function App() {
         </div>
       </header>
 
-      <section className="bg-light" id="work">
+      <section className="bg-col" id="work">
         <div className="container px-5">
-          <div className="row align-items-center justify-content-center">
+          <div className="row align-items-center justify-content-center conth">
             <div className="col-12 col-lg-4">
               <h2 className="display-4">Work</h2>
-              <p className="lead fw-normal text-muted mb-5 mb-lg-0">tagline</p>
+              <p className="lead fw-normal text-muted">Check out my latest project live:</p> <a role="button" href="https://wintech-web-app.web.app/" className="btn btn-outline-primary">WintechCorp <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+
+
             </div>
 
             <div className="col-12 col-lg-8">
               <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active" data-bs-interval="5000">
-                    <img src="/assets/1.jpg" className="img-fluid" alt="..." />
+                    <img src="/assets/w1.png" className="img-fluid" alt="..." />
                   </div>
                   <div className="carousel-item" data-bs-interval="5000">
-                    <img src="/assets/2.jpg" className="img-fluid" alt="..." />
+                    <img src="/assets/w2.png" className="img-fluid" alt="..." />
                   </div>
                   <div className="carousel-item" data-bs-interval="5000">
-                    <img src="/assets/3.jpg" className="img-fluid" alt="..." />
+                    <img src="/assets/w3.png" className="img-fluid" alt="..." />
+                  </div>
+                  <div className="carousel-item" data-bs-interval="5000">
+                    <img src="/assets/n1.png" className="img-fluid" alt="..." />
+                  </div>
+                  <div className="carousel-item" data-bs-interval="5000">
+                    <img src="/assets/n2.png" className="img-fluid" alt="..." />
+                  </div>
+                  <div className="carousel-item" data-bs-interval="5000">
+                    <img src="/assets/n3.png" className="img-fluid" alt="..." />
+                  </div>
+                  <div className="carousel-item" data-bs-interval="5000">
+                    <img src="/assets/n4.png" className="img-fluid" alt="..." />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span className="visually-hidden">Previous</span>
+                  <span className="visually-hidden">Prev</span>
                 </button>
                 <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                   <span className="carousel-control-next-icon" aria-hidden="true"></span>
@@ -84,12 +96,13 @@ function App() {
 
       <section className="bg-white" id="about">
         <div className="container px-5">
-          <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+          <div className="row conth gx-5 align-items-center justify-content-center justify-content-lg-between">
+          <div className="col-sm-8 col-md-6">
+              <img src="/assets/img1.jpg" className="profile rounded-circle m-3 " alt="" />
+            </div>
             <div className="col-12 col-lg-5">
               <h2 className="display-4 lh-1 mb-4">About</h2>
               <p className="lead fw-normal text-muted mb-5 mb-lg-0">tagline</p>
-            </div>
-            <div className="col-sm-8 col-md-6">
             </div>
           </div>
         </div>
@@ -97,10 +110,11 @@ function App() {
 
       <section className="bg-light" id="contact">
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row align-items-center justify-content-center conth">
             <div className="col-lg-7">
-              <h2 className="text-center py-3">Contact</h2>
-              <form id="contactForm">
+            <h2 className="display-4 text-center">Leave a Message</h2>
+              <form id="contactForm" name="contact" method="post" data-netlify="true" data-netlify-recaptcha="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
                 <div className="form-floating mb-3">
                   <input className="form-control" id="name" type="text" placeholder="Your name" required />
                   <label htmlFor="name">Name</label>

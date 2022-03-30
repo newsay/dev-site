@@ -33,7 +33,7 @@
 .text-grad{
   background-clip: text;
   background-image: linear-gradient(135deg, #e3e81d, #1ddde8, #dd00f3);
-  opacity: 80%;
+  opacity: 90%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 1800% 1800%;
@@ -42,13 +42,27 @@
 
 .tagline{
   font-family: 'Playfair Display', serif;
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .bg-grad{
-  background-image: linear-gradient(135deg, #e3e81d70, #1ddde870, #dd00f370);
+  background-image: linear-gradient(135deg, #ffffff 0%, #adade4bb 100%), url(./pic/1.jpg);
+  background-size: 200%;
+  animation: rainbow 1000s linear infinite;
+}
+
+.bg-col{
+  background-image: linear-gradient(135deg, #e5e81d23, #1ddee825, #df00f31e);
   background-size: 1800% 1800%;
-  animation: rainbow 50s ease infinite;
+  animation: rainbow 40s ease infinite;
+}
+
+.conth{
+  min-height: 80vh;
+}
+
+.contm{
+margin-top: 10vh;
 }
 
 @keyframes rainbow {
@@ -70,3 +84,4 @@
   height: 50vh;
   overflow-y: hidden;
 }
+
