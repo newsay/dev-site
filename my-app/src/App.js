@@ -27,6 +27,7 @@ function App() {
       </div>
 
       <header className="bg-grad">
+        <div className="bg-geo">
         <div className="container p-5">
           <div className="row align-items-center conth">
             <div className="col">
@@ -40,7 +41,8 @@ function App() {
             </div>
 
           </div>
-        </div>
+          </div>
+          </div>
       </header>
 
       <section className="bg-col" id="work">
@@ -56,7 +58,7 @@ function App() {
 
             <div className="col-12 col-lg-8">
               <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
+                <div className="carousel-inner bg-dark-op">
                   <div className="carousel-item active" data-bs-interval="5000">
                     <img src="/assets/w1.png" className="img-fluid" alt="..." />
                   </div>
@@ -96,13 +98,13 @@ function App() {
 
       <section className="bg-white" id="about">
         <div className="container px-5">
-          <div className="row conth gx-5 align-items-center justify-content-center justify-content-lg-between">
-            <div className="col-sm-8 col-md-6">
-              <img src="/assets/img1.jpg" className="profile rounded-circle m-3 " alt="" />
+          <div className="row conth align-items-center justify-content-center">
+            <div className="col-lg-5 text-lg-start text-center">
+              <img src="/assets/img1.jpg" className="img-about rounded-circle" alt="" />
             </div>
-            <div className="col-12 col-lg-5">
-              <h2 className="display-4 lh-1 mb-4">About</h2>
-              <p className="lead fw-normal text-muted mb-5 mb-lg-0">tagline</p>
+            <div className="col-lg-7">
+              <h2 className="display-4">About</h2>
+              <p className="lead fw-normal text-muted ">I am always looking for exciting opportunities to display my talent and expand my knowledge of all things software development.</p>
             </div>
           </div>
         </div>
@@ -116,22 +118,22 @@ function App() {
               <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" data-netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-floating mb-3">
-                  <input className="form-control" id="name" type="text" placeholder="Your name" required />
+                  <input className="form-control" name="name" type="text" placeholder="Your name" required />
                   <label htmlFor="name">Name</label>
                 </div>
                 <div className="form-floating mb-3">
-                  <input className="form-control" id="email" type="email" placeholder="Your email" required />
+                  <input className="form-control" name="email" type="email" placeholder="Your email" required />
                   <label for="email">Email address</label>
                 </div>
                 <div className="form-floating mb-3">
-                  <input className="form-control" id="phone" type="tel" placeholder="Your phone number" maxLength={10} />
+                  <input className="form-control" name="phone" type="tel" placeholder="Your phone number" maxLength={10} />
                   <label for="phone">Phone number</label>
                 </div>
                 <div className="form-floating mb-3">
-                  <textarea className="form-control" placeholder="Your message" id="floatingTextarea2" maxLength={4000} style={{ height: 20 + "vh" }}></textarea>
+                  <textarea className="form-control" name="message" placeholder="Your message" maxLength={4000} style={{ height: 20 + "vh" }}></textarea>
                   <label for="floatingTextarea2">Message</label>
                 </div>
-                <div className="d-grid pb-3"><button className="btn  btn-outline-primary rounded-pill btn-lg" id="submitButton" type="submit">Submit</button></div>
+                <div className="d-grid pb-3"><button className="btn btn-outline-primary rounded-pill btn-lg" type="submit">Submit</button></div>
               </form>
             </div>
           </div>

@@ -26,6 +26,11 @@
   min-width: 15vh;
 }
 
+.img-about{
+  width: 20vmax;
+  min-width: 15vh;
+}
+
 .name{
   font-family: 'Oswald', sans-serif;
 }
@@ -46,10 +51,17 @@
 }
 
 .bg-grad{
-  background-image: linear-gradient(135deg, #ffffff 0%, #adade4bb 100%), url(./pic/1.jpg);
-  background-size: 200%;
-  animation: rainbow 1000s linear infinite;
+  background-image: url(./pic/geo.png);
+  background-repeat: repeat;
+  animation: rainbow 500s linear infinite;
 }
+
+.bg-geo{
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0), #e5e81d4b, #1ddee82d, #df00f36c, rgba(255, 255, 255, 0));
+  background-size: 1000%;
+  animation: rainbow 400s linear infinite;
+}
+
 
 .bg-col{
   background-image: linear-gradient(135deg, #e5e81d23, #1ddee825, #df00f31e);
@@ -75,9 +87,12 @@
   }
 }
 
-.carousel-item{
+.img-fluid{
+  object-fit: contain;
   width: 100%;
   height: 50vh;
-  overflow-y: hidden;
 }
 
+.bg-dark-op{
+  background-color: rgba(0, 0, 0, 0.05);
+}
