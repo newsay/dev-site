@@ -27,8 +27,8 @@ function App() {
       </div>
 
       <header className="bg-grad">
-        <div className="container conth p-5">
-          <div className="row align-items-center contm">
+        <div className="container p-5">
+          <div className="row align-items-center conth">
             <div className="col">
               <div className="text-lg-start text-center align-text-bottom">
                 <img src="/assets/profile.jpg" className="rounded-circle m-3 profile" alt="profile" />
@@ -97,7 +97,7 @@ function App() {
       <section className="bg-white" id="about">
         <div className="container px-5">
           <div className="row conth gx-5 align-items-center justify-content-center justify-content-lg-between">
-          <div className="col-sm-8 col-md-6">
+            <div className="col-sm-8 col-md-6">
               <img src="/assets/img1.jpg" className="profile rounded-circle m-3 " alt="" />
             </div>
             <div className="col-12 col-lg-5">
@@ -112,9 +112,9 @@ function App() {
         <div className="container">
           <div className="row align-items-center justify-content-center conth">
             <div className="col-lg-7">
-            <h2 className="display-4 text-center">Leave a Message</h2>
-              <form id="contactForm" name="contact" method="post" data-netlify="true" data-netlify-recaptcha="true" data-netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="contact" />
+              <h2 className="display-4 text-center">Leave a Message</h2>
+              <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="form-floating mb-3">
                   <input className="form-control" id="name" type="text" placeholder="Your name" required />
                   <label htmlFor="name">Name</label>
