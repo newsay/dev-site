@@ -28,21 +28,21 @@ function App() {
 
       <header className="bg-grad">
         <div className="bg-geo">
-        <div className="container p-5">
-          <div className="row align-items-center conth">
-            <div className="col">
-              <div className="text-lg-start text-center align-text-bottom">
-                <img src="/assets/profile.jpg" className="rounded-circle m-3 profile" alt="profile" />
-                <h1 className="display-1 name text-grad">SHOSHANA YASWEN</h1>
-                <h2 className="text-dark tagline">Software Developer in Washington, D.C.</h2>
-              </div>
+          <div className="container p-5">
+            <div className="row align-items-center conth">
               <div className="col">
+                <div className="text-lg-start text-center align-text-bottom">
+                  <img src="/assets/profile.jpg" className="rounded-circle m-3 profile" alt="profile" />
+                  <h1 className="display-1 name text-grad">SHOSHANA YASWEN</h1>
+                  <h2 className="text-dark tagline">Software Developer in Washington, D.C.</h2>
+                </div>
+                <div className="col">
+                </div>
               </div>
-            </div>
 
+            </div>
           </div>
-          </div>
-          </div>
+        </div>
       </header>
 
       <section className="bg-col" id="work">
@@ -50,36 +50,37 @@ function App() {
           <div className="row align-items-center justify-content-center conth">
             <div className="col-12 col-lg-4">
               <h2 className="display-4">Work</h2>
-              <p className="lead fw-normal text-muted">Check out my latest project live:</p> <a role="button" href="https://wintech-web-app.web.app/" className="btn btn-outline-primary">WintechCorp <i class="bi bi-box-arrow-up-right"></i>
+              <p className="lead fw-normal text-muted">Check out my latest project live:</p> <a role="button" href="https://wintech-web-app.web.app/" className="btn btn-outline-primary">WintechCorp <i className="bi bi-box-arrow-up-right"></i>
               </a>
-
-
             </div>
 
             <div className="col-12 col-lg-8">
               <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner bg-dark-op">
-                  <div className="carousel-item active" data-bs-interval="5000">
-                    <img src="/assets/w1.png" className="img-fluid" alt="..." />
-                  </div>
-                  <div className="carousel-item" data-bs-interval="5000">
-                    <img src="/assets/w2.png" className="img-fluid" alt="..." />
-                  </div>
-                  <div className="carousel-item" data-bs-interval="5000">
-                    <img src="/assets/w3.png" className="img-fluid" alt="..." />
-                  </div>
-                  <div className="carousel-item" data-bs-interval="5000">
-                    <img src="/assets/n1.png" className="img-fluid" alt="..." />
-                  </div>
-                  <div className="carousel-item" data-bs-interval="5000">
-                    <img src="/assets/n2.png" className="img-fluid" alt="..." />
-                  </div>
-                  <div className="carousel-item" data-bs-interval="5000">
-                    <img src="/assets/n3.png" className="img-fluid" alt="..." />
-                  </div>
-                  <div className="carousel-item" data-bs-interval="5000">
-                    <img src="/assets/n4.png" className="img-fluid" alt="..." />
-                  </div>
+                  <div className="carousel-item active" data-bs-interval="4000">
+                    <img src="/assets/w1.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/w2.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/w3.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/n1.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/n2.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/n3.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/n4.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/n5.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/n6.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/s1.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/s2.png" className="img-fluid imgf" alt="..." /></div>
+                  <div className="carousel-item" data-bs-interval="4000">
+                    <img src="/assets/s3.png" className="img-fluid imgf" alt="..." /></div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -91,7 +92,37 @@ function App() {
                 </button>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
+      <section className="bg-light" id="tech">
+        <div className="container px-5">
+          <div className="row align-items-center justify-content-center conth">
+            <div className="col-12 col-lg-4">
+              <h2 className="display-4">Skills & Technologies</h2>
+              <p className="lead fw-normal text-muted"> Here are just some of the technologies and tools I have used throughout my career.</p>
+            </div>
+            <div className="container col-12 col-lg-5">
+              <div className="row">
+              <div className="col p-1"><img src="/assets/aws.png" className="img-fluid imgi" alt="..." title="AWS" /></div>
+                <div className="col p-1"><img src="/assets/java.jpg" className="img-fluid imgi" alt="..." title="Java" /></div>
+                <div className="col p-1"><img src="/assets/c.png" className="img-fluid  imgi" alt="..." title="C++" /></div>
+                <div className="col p-1"><img src="/assets/python.png" className="img-fluid  imgi" alt="..." title="Python" /></div>
+                <div className="col p-1"><img src="/assets/html.png" className="img-fluid imgi" alt="..." title="HTML" /></div>
+                <div className="col p-1"><img src="/assets/css.png" className="img-fluid imgi" alt="..." title="CSS" /></div>
+                <div className="col p-1"><img src="/assets/js.jpg" className="img-fluid imgi" alt="..." title="JavaScript" /></div>
+                <div className="col p-1"><img src="/assets/php.jpg" className="img-fluid  imgi" alt="..." title="PHP" /></div>
+                <div className="col p-1"><img src="/assets/node.png" className="img-fluid imgi" alt="..." title="Node" /></div>
+                <div className="col p-1"><img src="/assets/react.png" className="img-fluid imgi" alt="..." title="React" /></div>
+                <div className="col p-1"><img src="/assets/angular.png" className="img-fluid imgi" alt="..." title="Angular" /></div>
+                <div className="col p-1"><img src="/assets/git.png" className="img-fluid imgi" alt="..." title="Git" /></div>
+                <div className="col p-1"><img src="/assets/sql.png" className="img-fluid imgi" alt="..." title="SQL" /></div>
+                <div className="col p-1"><img src="/assets/postgresql.png" className="img-fluid imgi" alt="..." title="PostgreSQL" /></div>
+                <div className="col p-1"><img src="/assets/firebase.png" className="img-fluid imgi" alt="..." title="Firebase" /></div>
+                <div className="col p-1"><img src="/assets/wordpress.png" className="img-fluid imgi" alt="..." title="WordPress" /></div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

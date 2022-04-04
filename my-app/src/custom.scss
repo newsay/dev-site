@@ -57,9 +57,9 @@
 }
 
 .bg-geo{
-  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0), #e5e81d4b, #1ddee82d, #df00f36c, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0), #1ddee82d, #df00f36c, #e5e81d4b,  rgba(255, 255, 255, 0));
   background-size: 1000%;
-  animation: rainbow 400s linear infinite;
+  animation: rainbow 200s linear infinite;
 }
 
 
@@ -87,10 +87,19 @@
   }
 }
 
-.img-fluid{
+.imgf{
   object-fit: contain;
   width: 100%;
   height: 50vh;
+}
+
+.imgi{
+  min-width: 100px;
+  background-color: white;
+}
+
+.imgi:hover{
+  opacity: .5;
 }
 
 .bg-dark-op{
