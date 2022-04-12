@@ -50,7 +50,7 @@ function App() {
           <div className="row align-items-center justify-content-center conth">
             <div className="col-12 col-lg-4">
               <h2 className="display-4">Work</h2>
-              <p className="lead fw-normal text-muted">Check out my latest project live:</p> <a role="button" href="https://wintech-web-app.web.app/" className="btn btn-outline-primary">WintechCorp <i className="bi bi-box-arrow-up-right"></i>
+              <p className="lead fw-normal text-muted"> Discover some of my past creations and explore my latest product live:</p> <a role="button" href="https://wintech-web-app.web.app/" className="btn btn-outline-primary">WintechCorp <i className="bi bi-box-arrow-up-right"></i>
               </a>
             </div>
 
@@ -101,11 +101,11 @@ function App() {
           <div className="row align-items-center justify-content-center conth">
             <div className="col-12 col-lg-4">
               <h2 className="display-4">Skills & Technologies</h2>
-              <p className="lead fw-normal text-muted"> Here are just some of the technologies and tools I have used throughout my career.</p>
+              <p className="lead fw-normal text-muted"> Here are just some of my tools I use to bring ideas to reality.</p>
             </div>
             <div className="container col-12 col-lg-5">
               <div className="row">
-              <div className="col p-1"><img src="/assets/aws.png" className="img-fluid imgi" alt="..." title="AWS" /></div>
+                <div className="col p-1"><img src="/assets/aws.png" className="img-fluid imgi" alt="..." title="AWS" /></div>
                 <div className="col p-1"><img src="/assets/java.jpg" className="img-fluid imgi" alt="..." title="Java" /></div>
                 <div className="col p-1"><img src="/assets/c.png" className="img-fluid  imgi" alt="..." title="C++" /></div>
                 <div className="col p-1"><img src="/assets/python.png" className="img-fluid  imgi" alt="..." title="Python" /></div>
@@ -135,7 +135,11 @@ function App() {
             </div>
             <div className="col-lg-7">
               <h2 className="display-4">About</h2>
-              <p className="lead fw-normal text-muted ">I am always looking for exciting opportunities to display my talent and expand my knowledge of all things software development.</p>
+              <p className="lead fw-normal text-muted ">For over seven years, I have worked to build my career as a software developer
+                combining my natural eye for design with my love for coding. In my time as a software developer, I have created for a variety
+                of clients including government consultants, schools, nonprofits, and local community leaders using my experience to create a
+                great experience for everyone. I am always looking for exciting opportunities to display my talent and expand my skillset
+                so shoot me a message and let's create something brilliant.</p>
             </div>
           </div>
         </div>

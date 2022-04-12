@@ -37,7 +37,7 @@
 
 .text-grad{
   background-clip: text;
-  background-image: linear-gradient(135deg, #e3e81d, #1ddde8, #dd00f3);
+  background-image: linear-gradient(135deg, #1ddde8, #dd00f3, #e3e81d);
   opacity: 90%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -64,7 +64,7 @@
 
 
 .bg-col{
-  background-image: linear-gradient(135deg, #e5e81d23, #1ddee825, #df00f31e);
+  background-image: linear-gradient(135deg, #1ddee825, #df00f31e, #e5e81d23);
   background-size: 1800% 1800%;
   animation: rainbow 40s ease infinite;
 }
